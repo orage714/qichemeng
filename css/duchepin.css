@@ -1,0 +1,280 @@
+.badge-car {
+    padding: 10px 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    background-color: #ee0d0d;
+}
+.img-sign {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/sign.png);
+    background-size: auto 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.ratio-16-10:before {
+    padding-top: 62.5%;
+}
+
+.img-ratio:before {
+    content: "";
+    display: block;
+}
+.img-car .car-title {
+    display: block;
+    padding: 8px 10px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.zoom:hover .img-bg, .zoom:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.ratio-16-9:before {
+    padding-top: 56.25%;
+}
+.car-cols {
+    text-align: center;
+    width: 100%;
+}
+.car-cols h4.csm {
+    font-size: 28px;
+}
+
+element.style {
+}
+.car-cols h4.csm {
+    font-size: 28px;
+}
+.car-cols h4 {
+    color: #444444;
+    font-size: 32px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+.car-box .box {
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 4.5em;
+    height: 4.5em;
+    margin: 0 3px;
+    padding: 1em 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.car-box .box:hover {
+    color: #fff;
+}
+.car-box .box-green {
+    border-color: #8fc853;
+    color: #8fc853;
+}
+.car-box .box-green:hover {
+    background: #8fc853;   
+}
+.car-box .box-pink {
+    border-color: #ed77d9;
+    color: #ed77d9;
+}
+.car-box .box-pink:hover {
+    background: #ed77d9;
+}
+.car-box .box-purple {
+    border-color: #9262ff;
+    color: #9262ff;
+}
+.car-box .box-purple:hover {
+    background: #9262ff;
+   
+}
+.car-box .box-blue {
+    border-color: #5a9ff5;
+    color: #5a9ff5;
+}
+.car-box .box-blue:hover {
+    background: #5a9ff5;
+  
+}
+.car-box .box-red {
+    border-color: #ed5997;
+    color: #ed5997;
+}
+.car-box .box-red:hover {
+    background: #ed5997;
+    
+}
+
+
+
+
+.flag {
+    display: inline-block;
+    position: relative;
+}
+.flag-liang {
+    color: #f19927;
+}
+.duping-box .flag {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+.duping-box .item.big .flag {
+    top: 10px;
+}
+.flag:before {
+    content: "";
+    display: block;
+    margin: 0 -2px;
+    border-top: 2px solid;
+}
+.flag:after {
+    content: "";
+    display: block;
+    border: 12px solid;
+    width: 0;
+    height: 24px;
+    border-bottom: 3px solid transparent;
+}
+.flag.flag-md:after {
+    border: 16px solid;
+    height: 32px;
+    border-bottom: 5px solid transparent;
+}
+.flag.flag-lg i {
+    line-height: 42px;
+    font-size: 24px;
+}
+
+.flag-liang {
+    color: #f19927;
+}
+.flag {
+    display: inline-block;
+    position: relative;
+}
+.flag:before {
+    content: "";
+    display: block;
+    margin: 0 -2px;
+    border-top: 2px solid;
+}
+.flag.flag-lg i {
+    line-height: 42px;
+    font-size: 24px;
+}
+
+.flag i {
+    display: block;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+}
+.flag:before {
+    content: "";
+    display: block;
+    margin: 0 -2px;
+    border-top: 2px solid;
+}
+.flag-liang i:before {
+    content: "良";
+}
+
+element.style {
+}
+.flag-liang {
+    color: #f19927;
+    
+}
+.flag {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+.flag.flag-lg:after {
+    border: 22px solid;
+    height: 44px;
+    border-bottom: 7px solid transparent;
+}
+.car-cols .car-text p {
+    display: inline-block;
+    font-size: 26px;
+    padding: 0 15px;
+    color: #444;
+}
+.txt-red {
+    color: #e50000;
+}
+.row-flex {
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+.badge-car.big {
+    padding: 12px 25px;
+    font-size: 20px;
+}
+.badge-car.s2 {
+    background-color: #f19927;
+}
+.flag-ke {
+    color: #cec72d;
+}
+.flag-ke i:before {
+    content: "可";
+}
+.flag-cha {
+    color: #ee0d0d;
+}
+.flag-cha i:before {
+    content: "差";
+}
+
+.flag-you {
+    color: #34c800;
+}
+.flag-you i:before {
+    content: "优";
+}
+body {
+ 
+    background-color: #f5f5f7;
+}

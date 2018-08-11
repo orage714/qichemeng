@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,shrink-to-fit=no,user-scalable=no">
+		<title>汽车门网 专业汽车质量投诉平台</title>
+		<meta name="keywords" content="汽车,汽车门网,汽车投诉,汽车质量,投诉,质量,新闻,评测,质量查询,汽车黑幕">
+		<meta name="description" content="汽车门网（www.qichemen.com）是一家专业的汽车质量投诉解决与产品可靠性研究平台，一对一投诉沟通，百分百投诉回应，帮助消费者解决用车难题，同时对产品可靠性进行研究，为消费者购车提供重要参考">
+
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/fonts/iconfont.css" />
+		<link href="../css/zhixun.css" rel="stylesheet">
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/toushu.css">
+		<link rel="stylesheet" href="../css/zhixunmedia.css" />
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script src="../js/index.js"></script>
+	</head>
+
+	<body>
+		<!--头部导航-->
+		<header id="header">
+			<div class="top clearfix">
+				<div class="container">
+					<ul class="nav top-nav">
+						<li class="hidden-xs dropdown">
+							<a href="https://www.qichemen.com/#"> <i class="fi fi-tousu"></i><span class="mhidden">手机快速投诉</span></a>
+							<div class="dropdown-box">
+								<img src="../images/download.png"></div>
+						</li>
+						<li class="hidden-xs dropdown bf">
+							<a href="https://www.qichemen.com/#"> <i class="fi fi-wechat-square"></i><span class="mhidden">微信公众号</span></a>
+							<div class="dropdown-box"><img src="../images/download.jpg"></div>
+						</li>
+						<li class=" bf">
+							<a href="tel:13391520384">
+								<i class="fi fi-phone"></i>
+								<span class="mhidden">服务热线：</span>
+								<span>133－9152－0384</span>
+							</a>
+						</li>
+					</ul>
+					<ul class="nav login-nav">
+						<li>
+							<a class="btn btn-second btn-xs" href="https://www.qichemen.com/#register" data-toggle="modal">注册</a>
+						</li>
+						<li class="bf">
+							<a class="btn btn-main btn-xs" href="https://www.qichemen.com/#login" data-toggle="modal">登录</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<nav class="navbar">
+				<div class="container">
+					<h1 class="logo">
+				<a href="https://www.qichemen.com/" title="专业汽车质量投诉平台"></a>
+			</h1>
+			<button class="nav-toggle">
+				<img src="../images/nav.png" alt="" />
+				<img src="../images/close.png" alt="" style="display: none;"/>
+			</button>
+
+					<div class="main-nav">
+						<ul class="nav" id="nav">
+							<li>
+								<a class="home" href="zhixun.html" title="汽车新闻咨询">
+									<i class="fi fi-zixun"></i>
+									<span>资讯</span>
+								</a>
+							</li>
+							<li>
+								<a href="toushu.html" title="汽车质量投诉"><i class="fi fi-tousu"></i><span>投诉</span></a>
+							</li>
+							<li>
+								<a href="carvideo.html" title="汽车视频"><i class="fi fi-video"></i><span>视频</span></a>
+							</li>
+							<li>
+								<a href="chepin.html" title="汽车评价"><i class="fi fi-koubei"></i><span>车型口碑</span></a>
+							</li>
+							<li>
+								<a href="duchepin.html" title="汽车评价"><i class="fi fi-pinglun"></i><span>车门毒评</span></a>
+							</li>
+							<li>
+								<a href="rkrp.html" title="汽车排行与报告"><i class="fi fi-paihang"></i><span>排行&amp;报告</span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="search-box">
+						<form class="search-form" method="POST" action="https://www.qichemen.com/search.html">
+							<input class="search-input" name="keywords" placeholder="创酷 蒙迪欧 科鲁兹...">
+							<button class="search-button"><i class="fi fi-sousuo"></i></button>
+						</form>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--con部分-->
+		<div id="main">
+
+			<div class="container">
+				<div class="tag-d">您的当前位置：
+					<a href="../index.html">首页</a><span>-&gt;</span>
+					<a class="active" href="#">投诉</a>
+				</div>
+				<hr>
+				<div class="block-main">
+					<form action="https://www.qichemen.com/complain.html" method="post">
+					  <div class="filter-block">
+						<div class="filter-label">筛　　选：</div>
+						<div class="filter-content">
+						  <div class="select-g">
+							<select name="brid" class="brand-select" data-type="1">
+								<option class="hidden" value="">选择品牌</option>
+								<option value="10009">A-阿斯顿-马丁</option><option value="10008">A-阿尔法-罗密欧</option><option value="10296">A-奥迪</option><option value="10027">B-布加迪</option><option value="10017">B-北汽威旺</option><option value="10019">B-北汽制造</option><option value="10020">B-奔驰</option><option value="10021">B-奔腾</option><option value="10022">B-本田</option><option value="10023">B-比亚迪</option><option value="10024">B-标致</option><option value="10025">B-别克</option><option value="10026">B-宾利</option><option value="10016">B-北汽幻速</option><option value="10015">B-北京汽车</option><option value="10345">B-宝沃</option><option value="10018">B-北汽新能源</option><option value="10011">B-巴博斯</option><option value="10012">B-宝骏</option><option value="10013">B-宝马</option><option value="10014">B-保时捷</option><option value="10031">C-长城</option><option value="10030">C-长安商用车</option><option value="10029">C-长安</option><option value="10028">C-昌河</option><option value="10032">C-成功汽车</option><option value="10033">D-大众</option><option value="10034">D-道奇</option><option value="10035">D-东风</option><option value="10001">D-DS</option><option value="10036">D-东南汽车</option><option value="10042">F-福田</option><option value="10041">F-福特</option><option value="10040">F-福迪</option><option value="10039">F-丰田</option><option value="10038">F-菲亚特</option><option value="10037">F-法拉利</option><option value="10045">G-广汽吉奥</option><option value="10044">G-广汽</option><option value="10043">G-光冈</option><option value="10309">G-观致</option><option value="10002">G-GMC</option><option value="10051">H-华泰</option><option value="10052">H-黄海</option><option value="10050">H-红旗</option><option value="10049">H-悍马</option><option value="10048">H-海马</option><option value="10047">H-哈弗</option><option value="10046">H-哈飞</option><option value="10313">H-恒天</option><option value="10343">H-汉腾汽车</option><option value="10056">J-捷豹</option><option value="10058">J-九龙</option><option value="10057">J-金杯</option><option value="10055">J-江铃</option><option value="10351">J-君马</option><option value="10003">J-Jeep</option><option value="10054">J-江淮</option><option value="10053">J-吉利</option><option value="10059">K-卡尔森</option><option value="10004">K-KTM</option><option value="10317">K-开瑞</option><option value="10322">K-卡威</option><option value="10064">K-克莱斯勒</option><option value="10063">K-科尼赛克</option><option value="10061">K-凯翼</option><option value="10060">K-凯迪拉克</option><option value="10349">L-领克</option><option value="10077">L-路特斯</option><option value="10076">L-路虎</option><option value="10075">L-陆风</option><option value="10074">L-铃木</option><option value="10073">L-林肯</option><option value="10070">L-力帆</option><option value="10069">L-理念</option><option value="10068">L-雷诺</option><option value="10067">L-雷克萨斯</option><option value="10066">L-劳斯莱斯</option><option value="10065">L-兰博基尼</option><option value="10072">L-猎豹</option><option value="10071">L-莲花</option><option value="10006">M-MINI</option><option value="10080">M-迈凯伦</option><option value="10079">M-玛莎拉蒂</option><option value="10081">M-摩根</option><option value="10078">M-马自达</option><option value="10005">M-MG</option><option value="10082">N-纳智捷</option><option value="10083">O-讴歌</option><option value="10084">O-欧宝</option><option value="10312">O-欧朗</option><option value="10085">Q-奇瑞</option><option value="10086">Q-启辰</option><option value="10087">Q-起亚</option><option value="10088">R-日产</option><option value="10089">R-荣威</option><option value="10090">R-瑞麒</option><option value="10007">S-smart</option><option value="10095">S-双环</option><option value="10091">S-三菱</option><option value="10092">S-上海华普</option><option value="10093">S-上汽大通</option><option value="10094">S-绅宝</option><option value="10096">S-双龙</option><option value="10097">S-思铭</option><option value="10098">S-斯巴鲁</option><option value="10099">S-斯柯达</option><option value="10100">T-泰卡特</option><option value="10102">T-腾势</option><option value="10101">T-特斯拉</option><option value="10347">W-蔚来汽车</option><option value="10352">W-WEY</option><option value="10103">W-威麟</option><option value="10104">W-威兹曼</option><option value="10105">W-沃尔沃</option><option value="10106">W-五菱</option><option value="10108">X-现代</option><option value="10353">X-厦门金旅</option><option value="10107">X-西雅特</option><option value="10110">X-雪铁龙</option><option value="10109">X-雪佛兰</option><option value="10115">Y-永源</option><option value="10111">Y-野马汽车</option><option value="10112">Y-一汽</option><option value="10113">Y-英菲尼迪</option><option value="10114">Y-英致</option><option value="10118">Z-众泰</option><option value="10117">Z-中兴</option><option value="10116">Z-中华</option><option value="10354">Z-中通客车</option>              </select>
+						  </div>
+						  <div class="select-g">
+							<select name="moid" class="model-select" data-type="2">
+							  <option class="hidden" value="">选择车型</option>
+											</select>
+						  </div>
+						  <div class="select-g">
+							<select name="styleid" class="style-select">
+							  <option class="hidden" value="">选择车款</option>
+											</select>
+						  </div>
+						</div>
+					  </div>
+					  <hr>
+					  <div class="filter-block">
+						<div class="filter-label">周　　期：</div>
+						<div class="filter-content">
+						  <label class="filter-b link">
+							  <input type="radio" name="time" value="0" checked=""><span>不限</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="time" value="1"><span>一个月</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="time" value="2"><span>三个月</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="time" value="3"><span>六个月</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="time" value="4"><span>一年</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="time" value="5"><span>两年</span>
+							</label>          </div>
+					  </div>
+					  <hr>
+					  <div class="filter-block">
+						<div class="filter-label">质量问题：</div>
+						<div class="filter-content">
+						  <label class="filter-b link">
+							<input type="radio" name="quession" value="0" checked=""><span>不限</span>
+						  </label>
+						  <label class="filter-b link">
+							  <input type="radio" name="quession" value="fdj"><span>发动机</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="bsx"><span>变速箱</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="lhq"><span>离合器</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="zxxt"><span>转向系统</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="zdxt"><span>制动系统</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="qhj"><span>悬架系统</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="lt"><span>轮胎</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="csjdq"><span>车身及电气</span>
+							</label><label class="filter-b link">
+							  <input type="radio" name="quession" value="fw"><span>服务</span>
+							</label>          </div>
+					  </div>
+					  <hr>
+							  <div class="filter-block">
+						<div class="filter-label">筛选条件：</div>
+						<div class="filter-content"> 
+						  <div class="input-g3">
+							<input type="text" name="keywords" placeholder="请输入关键字" value="">
+							<button class="btn btn-main" type="submit">搜索</button>
+						  </div>
+						</div>
+					  </div>
+					  <div class="clear"></div>
+					</form>	
+				</div>
+
+				<div class="img-ads">
+						<a href="http://www.qichemen.com/complain.html" target="_blank"><img src="../images/tousu1.jpg" alt="跑1.5w公里的机油"></a>
+				</div>
+				
+				<div class="block-main">
+						<div class="heading"><h3>投诉流程</h3></div>
+						<div class="row">
+						  <div class="col-xs-12 col-sm-12 col-md-9">
+							<div class="liucheng">
+							  <div class="item">
+								<div class="icon"><i class="fi fi-mobile-check"></i>
+								  <h4>验证登录</h4>
+								</div>
+							  </div>
+							  <div class="item">
+								<div class="icon"><i class="fi fi-suggest"></i>
+								  <h4>发表投诉</h4>
+								</div>
+							  </div>
+							  <div class="item">
+								<div class="icon"><i class="fi fi-time-machine"></i>
+								  <h4>及时回访</h4>
+								</div>
+							  </div>
+							  <div class="item">
+								<div class="icon"><i class="fi fi-ziyuan"></i>
+								  <h4>企业反馈</h4>
+								</div>
+							  </div>
+							  <div class="item">
+								<div class="icon"><i class="fi fi-ico_running_result"></i>
+								  <h4>处理结果</h4>
+								</div>
+							  </div>
+							  <div class="item">
+								<div class="icon"><i class="fi fi-emoticon-smile"></i>
+								  <h4>满意度点评</h4>
+								</div>
+							  </div>
+							</div>
+						  </div>
+						  <div class="col-xs-12 col-sm-12 col-md-3"><a class="btn btn-second btn-liucheng btn-wyts" href="https://www.qichemen.com/wyts.html"><i class="fi fi-suggest"></i>我要投诉</a></div>
+						</div>
+				  
+						<div class="complain-list">
+						<div class="heading"><h3>投诉列表</h3></div>
+						  <table class="table table-hover d-table table-tousu footable footable-1 breakpoint-lg" data-toggle-column="last" style="display: table;">
+							<thead>
+							  <tr class="footable-header">
+								
+								
+								
+								
+								
+								
+								
+							  <td class="w-no footable-first-visible" style="display: table-cell;">投诉编号</td><td class="w-car" style="display: table-cell;">投诉企业</td><td class="w-car" style="display: table-cell;">投诉车型</td><td class="" style="display: table-cell;">投诉主题</td><td data-breakpoints="xs sm" style="display: table-cell;">典型故障</td><td class="w-date" data-breakpoints="xs sm" style="display: table-cell;">投诉日期</td><td class="w-status footable-last-visible" data-breakpoints="xs sm" style="display: table-cell;">回复状态</td></tr>
+							</thead>
+							<tbody class="load-container">
+										<tr data-href="https://www.qichemen.com/ts61989.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61989</div></td><td style="display: table-cell;"><div class="w w1">一汽轿车</div></td><td style="display: table-cell;"><div class="w w1">奔腾B30</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽奔腾B30发动机漏油售后打胶未解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">漏油</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61990.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61990</div></td><td style="display: table-cell;"><div class="w w1">奇瑞</div></td><td style="display: table-cell;"><div class="w w1">艾瑞泽5</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">奇瑞艾瑞泽5车内生锈严重要求尽快处理</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">生锈</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61991.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61991</div></td><td style="display: table-cell;"><div class="w w1">猎豹汽车</div></td><td style="display: table-cell;"><div class="w w1">猎豹CS10</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">猎豹CS10上坡时发动机动力明显不足</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">功率不足</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61993.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61993</div></td><td style="display: table-cell;"><div class="w w1">北汽银翔</div></td><td style="display: table-cell;"><div class="w w1">幻速S2</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">北汽幻速S2刹车偏软制动距离过长</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">刹车偏软</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61994.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61994</div></td><td style="display: table-cell;"><div class="w w1">长城哈弗</div></td><td style="display: table-cell;"><div class="w w1">哈弗H2</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">哈弗H2雨刮臂盖板开裂更换后未解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">部件开裂</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61995.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61995</div></td><td style="display: table-cell;"><div class="w w1">一汽马自达</div></td><td style="display: table-cell;"><div class="w w1">马自达6阿特兹</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽马自达阿特兹转向沉重并且异响</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">异响</span><span class="badge bs">打方向沉重</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61996.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61996</div></td><td style="display: table-cell;"><div class="w w1">一汽马自达</div></td><td style="display: table-cell;"><div class="w w1">马自达6阿特兹</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽马自达阿特兹行驶粗糙路面时方向机异响</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">异响</span><span class="badge bs">转向机故障</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61997.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61997</div></td><td style="display: table-cell;"><div class="w w1">陆风汽车</div></td><td style="display: table-cell;"><div class="w w1">陆风X7</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">陆风X7正常行驶中方向盘突然锁死</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">失灵</span><span class="badge bs">打方向沉重</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61998.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61998</div></td><td style="display: table-cell;"><div class="w w1">长安汽车</div></td><td style="display: table-cell;"><div class="w w1">悦翔V7</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">长安悦翔V7油耗太高要求尽快解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">油耗高</span>                </div></td><td style="display: table-cell;">2018-08-10</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61949.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61949</div></td><td style="display: table-cell;"><div class="w w1">厦门金旅</div></td><td style="display: table-cell;"><div class="w w1">金旅大海狮</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">金旅大海师方向机漏油</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">漏油</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61948.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61948</div></td><td style="display: table-cell;"><div class="w w1">一汽马自达</div></td><td style="display: table-cell;"><div class="w w1">马自达6阿特兹</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">马自达阿特兹转向机异响 中控异响 高速刹车抖 响腐蚀严重有破</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">异响</span><span class="badge bs">抖动</span><span class="badge bs">影音系统故障</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61852.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61852</div></td><td style="display: table-cell;"><div class="w w1">一汽丰田</div></td><td style="display: table-cell;"><div class="w w1">普拉多</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽丰田普拉多发动机无法启动维修无配件</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">启动困难</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61849.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61849</div></td><td style="display: table-cell;"><div class="w w1">一汽马自达</div></td><td style="display: table-cell;"><div class="w w1">马自达6阿特兹</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽马自达阿特兹转向异响严重希望尽快解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">异响</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61847.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61847</div></td><td style="display: table-cell;"><div class="w w1">吉利汽车</div></td><td style="display: table-cell;"><div class="w w1">博越</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">吉利博越电瓶亏电 车辆无法启动</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">电瓶故障</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61845.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61845</div></td><td style="display: table-cell;"><div class="w w1">长城哈弗</div></td><td style="display: table-cell;"><div class="w w1">哈弗H2</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">哈弗H2行驶时有跑偏现象多次维修未解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">方向盘不正</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61844.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61844</div></td><td style="display: table-cell;"><div class="w w1">上汽通用雪佛兰</div></td><td style="display: table-cell;"><div class="w w1">科鲁兹</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">雪佛兰科鲁兹4S店未更换破损件态度恶劣</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">人员技术</span><span class="badge bs">配件争议</span><span class="badge bs">态度差</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61842.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61842</div></td><td style="display: table-cell;"><div class="w w1">东风标致</div></td><td style="display: table-cell;"><div class="w w1">标致408</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">东风标致408固特异轮胎召回规定不合理</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">磨损</span><span class="badge bs">其他原因</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61841.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61841</div></td><td style="display: table-cell;"><div class="w w1">上汽通用别克</div></td><td style="display: table-cell;"><div class="w w1">昂科威ENVISION</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">别克昂科威变速箱严重异响无法换挡</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">无法换挡</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61840.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61840</div></td><td style="display: table-cell;"><div class="w w1">奇瑞</div></td><td style="display: table-cell;"><div class="w w1">艾瑞泽7</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">奇瑞艾瑞泽7转向异响希望厂家质保处理</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">异响</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr><tr data-href="https://www.qichemen.com/ts61839.html" class="link-tr">
+								  
+								  
+								  
+								  
+								  
+								  
+								  
+								<td class="footable-first-visible" style="display: table-cell;"><div class="w w1">tx61839</div></td><td style="display: table-cell;"><div class="w w1">奥迪(进口)</div></td><td style="display: table-cell;"><div class="w w1">奥迪Q5</div></td><td class="ctitle" style="display: table-cell;"><div class="w w4">一汽大众奥迪Q5变速箱挡位丢失要求解决</div></td><td style="display: table-cell;"><div class="w w3">
+									<span class="badge bs">无法换挡</span>                </div></td><td style="display: table-cell;">2018-08-09</td><td style="display: table-cell;" class="footable-last-visible">结果审核</td></tr></tbody>
+						  </table>
+						</div>
+				<div class="load-more text-center" id="js1" style="color: #2e98ff; cursor: pointer;">点击加载更多<i class="fi fi-gengduo"></i></div>  </div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<footer id="footer">
+			<div class="container">
+				<div class="hidden-xs">
+					<div class="heading-ft">
+						<h3>法律支持</h3></div>
+					<div class="ft-link">
+						<ul class="nav">
+							<li>
+								<a target="_blank" href="http://www.topmountlawfirm.com/" rel="nofollow">北京市天岳律师事务所</a>
+							</li>
+						</ul>
+					</div>
+					<div class="heading-ft">
+						<h3>数据呈递单位</h3></div>
+					<div class="ft-link">
+						<ul class="nav">
+							<li>
+								<a target="_blank" href="http://www.aqsiq.gov.cn/" rel="nofollow">国家质量监督检验检疫总局</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.dpac.gov.cn/index.html" rel="nofollow">国家质检总局缺陷产品管理中心</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.bjtsb.gov.cn/" rel="nofollow">北京市质量技术监督局</a>
+							</li>
+						</ul>
+					</div>
+					<div class="heading-ft">
+						<h3>友情链接</h3></div>
+					<div class="ft-link">
+						<ul class="nav">
+							<li>
+								<a target="_blank" href="http://www.car136.com/">汽车殿堂</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.xcabc.com/">西游汽车网</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.cdmeichen.com/">成都地暖</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.szffpy.com/">雨棚</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.gxdian.cn/">干洗店加盟</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.qinghuacaiwu.com/">北京公司注册</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.jianmuwu.com/">木屋</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.bjhxjz.com/">写字楼装修</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.mingmen88.cn/">铝包木门窗</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.haolaoshi3.com/">高三家教</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.youhuabaidu.com/">网站优化</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.beijingwenshendian.com/">北京纹身</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.dljinma.cn/">地磅价格</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.denefu.com/">干洗店利润</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.hlzk.cn/">真空泵</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.xxz2009.com/">卤菜培训</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.nanhutravel.com/">旅游网</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.16qiang.com/">洋溪信息港</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.dffasion.com/">东方时尚驾校</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.fylunwen.com/">代写毕业论文</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.szxgqc.com/">消防车</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.jzfbj.com/">北京搬家公司</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.bjdfssjx.com/">东方时尚驾校</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.soudao.com/">互联网营销</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.yoondon-dim.com/">LED调光电源</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://www.meegoe.com/">网购价格</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://www.vehicle-trend.cn/">vehicleTrend</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://www.qj.com.cn/c_qiche/">汽车加盟</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://www.99click.com/">商助营销云</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.snybyjhz.com/">半永久培训</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://www.bjzlwt.cn/">翻译公司</a>
+							</li>
+						</ul>
+					</div>
+					<hr class="ft-line">
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-6">
+						<div class="ft-link">
+							<ul class="nav">
+								<li>
+									<a href="https://www.qichemen.com/near_8.html">投诉须知</a>
+								</li>
+								<li>
+									<a href="https://www.qichemen.com/near_9.html">版权声明</a>
+								</li>
+								<li>
+									<a href="https://www.qichemen.com/near_10.html">关于我们</a>
+								</li>
+								<li>
+									<a href="https://www.qichemen.com/near_11.html">联系我们</a>
+								</li>
+								<li>
+									<a href="https://www.qichemen.com/near_30.html">有奖征集</a>
+								</li>
+							</ul>
+						</div>
+						<div class="copyright">
+							<p><span>网站版权所有</span><span>未经许可不得转载</span><span>Copyright © QICHEMEN.COM. All rights reserved</span></p>
+							<p><img src="https://www.qichemen.com/Public/site/img/beian.png">
+								<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11022902000218"><span>京公网安备 11022902000218号</span><span>京ICP备15022557</span></a>
+								<a href="http://bbctop.com">Powered by BBCTOP.COM</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<a class="hotline-box" href="tel:13391520384"><span class="hotline-block"><span><i class="fi fi-phone2f"></i>服务热线：</span><span>133－9152－0384</span></span>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-3">
+						<ul class="qrcode-list">
+							<li><img src="https://www.qichemen.com/Public/site/img/qrcode.png">
+								<p>手机快速投诉</p>
+							</li>
+							<li><img src="https://www.qichemen.com/Public/site/img/qrcodewx.jpg">
+								<p>关注公众号</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--注册登入框-->
+		<div class="modal fade" id="register" style="display: none;">
+			<div class="modal-dialog modal-md">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">×</button>
+						<h3>注册汽车门账号</h3></div>
+					<div class="modal-body">
+						
+						<form class="login-form" data-ajax="true" action="#" novalidate="novalidate">
+							<div class="form-group s3">
+								<div class="input-g hasicon">
+									<i class="fi fi-icon09"></i>
+									<input class="phone" name="ac" type="tel" placeholder="手机号" >
+								</div>
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group s3">
+								<div class="input-g hasicon">
+									<i class="fi fi-artboard12"></i>
+									<input name="pwd" type="password" placeholder="密码">
+								</div>
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group s3">
+								<div class="input-g has-captcha">
+									<input name="imgcode" type="text" placeholder="验证码">
+									<div class="captcha">
+										<img src="../images/yz0.png">
+										<a class="noblank refcode" href="javascript:;">换一张</a>
+									</div>
+								</div>
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group s3">
+								<div class="input-g has-code">
+									<input name="smscode" type="text" placeholder="手机验证码">
+									<button class="btn btn-gradient btn-gray btn-code" type="button" disabled="">获取验证码</button>
+								</div>
+								<span class="help-block"></span>
+							</div>
+							<div class="form-group s3">
+								<label class="jchecker">
+									<input type="checkbox" name="agree" checked="">
+									<i class="checkbox-type"></i>
+									<span>我已阅读并接受
+										<a href="#">《汽车门用户服务使用协议》</a>
+									</span>
+								</label>
+							</div>
+							<button class="btn btn-main btn-block" type="submit">立即注册</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//登入-->
+		<div class="modal fade in" id="login" style="display: none;">
+		
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header"><button class="close" data-dismiss="modal">×</button>
+				<h3>登录汽车门账号</h3></div>
+			<div class="modal-body">
+				<ul class="nav nav-login clearfix">
+					<li class="">
+						<a href="#person" data-toggle="tab" class="" aria-expanded="false">个人</a>
+					</li>
+					<li class="active">
+						<a href="#business" data-toggle="tab" class="disabled-hover" aria-expanded="true">企业</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane fade" id="person">
+						<form class="login-form" data-ajax="true" action="https://www.qichemen.com/login/dologin" novalidate="novalidate"><input type="hidden" name="url" value=""><input type="hidden" name="type" value="1">
+							<div class="form-group s3">
+								<div class="input-g hasicon"><i class="fi fi-icon09"></i><input class="ac" name="ac" type="tel" placeholder="手机号"></div><span class="help-block"></span></div>
+							<div class="form-group s3">
+								<div class="input-g hasicon"><i class="fi fi-artboard12"></i><input name="pwd" type="password" placeholder="密码"></div><span class="help-block"></span></div>
+							<div class="form-group s3">
+								<div class="input-g has-captcha"><input name="imgcode" type="text" placeholder="验证码">
+									<div class="captcha"><img src="https://www.qichemen.com/captcha">
+										<a class="noblank refcode" href="javascript:;">换一张</a>
+									</div>
+								</div><span class="help-block"></span></div><label class="jchecker"><input name="auto" type="checkbox" checked=""><i class="checkbox-type"></i><span>下次自动登录</span></label><button class="btn btn-main btn-block btn-login" type="submit">登录</button>
+							<div class="space"></div>
+							<div class="login-footer clearfix">
+								<div class="quick-login pull-left">快捷登录：
+									<a href="https://www.qichemen.com/wxlogin.html"><i class="fi fi-wechat-circle"></i></a>
+								</div>
+								<div class="login-footer-nav pull-right">
+									<a data-type="1" class="register" href="javascript:;">立即注册</a>|
+									<a data-type="2" class="forgot-pass" href="javascript:;">忘记密码</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane fade active in" id="business">
+						<form class="login-form" data-ajax="true" action="https://www.qichemen.com/login/dologin" novalidate="novalidate"><input type="hidden" name="url" value=""><input type="hidden" name="type" value="2">
+							<div class="form-group s3">
+								<div class="input-g hasicon"><i class="fi fi-icon09"></i><input name="ac" type="tel" placeholder="手机号"></div><span class="help-block"></span></div>
+							<div class="form-group s3">
+								<div class="input-g hasicon"><i class="fi fi-artboard12"></i><input name="pwd" type="password" placeholder="密码"></div><span class="help-block"></span></div>
+							<div class="form-group s3">
+								<div class="input-g has-captcha"><input name="imgcode" type="text" placeholder="验证码">
+									<div class="captcha"><img src="https://www.qichemen.com/captcha">
+										<a class="noblank refcode" href="javascript:;">换一张</a>
+									</div>
+								</div><span class="help-block"></span></div><label class="jchecker"><input name="auto" type="checkbox" checked=""><i class="checkbox-type"></i><span>下次自动登录</span></label><button class="btn btn-main btn-block btn-login" type="submit">登录</button>
+							<div class="space"></div>
+							<div class="login-footer clearfix">
+								<div class="login-footer-nav pull-right">
+									<a data-type="2" class="forgot-pass" href="javascript:;">忘记密码</a>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		<!--右侧QQ固定-->
+		<div id="tools">
+	<a class="qq" target="_blank" href="tencent://message/?uin=3223069753&amp;Site=sc.chinaz.com&amp;Menu=yes"><i class="fi fi-qq"></i></a>
+	<a class="gotop" href="#"><i class="fi fi-gotop"></i></a>
+</div>
+<script>
+	$(function(){
+		var getJson = function (param) {
+    return new Promise(function (resolve, reject) { 
+        $.ajax({ 
+            url: param,
+            dataType:"jsonp",
+            type: 'get',
+            success: function (data) { 
+                resove(data);
+            }, error: function (err) {
+                reject(err)    
+            }
+        })
+    })
+}
+let result = getJson("../js/toushu.json");
+result.then(function (data) {
+    console.log(data);
+ })
+	})
+</script>
+	</body>
+
+</html>

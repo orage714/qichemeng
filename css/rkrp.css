@@ -1,0 +1,121 @@
+.rank {
+    background: #cb1216;
+}
+.rank-2 {
+    background: #3c3d3e;
+}
+.table-paihang .sm-head {
+    font-size: 16px;
+    white-space: nowrap;
+}
+.box-num.s2 {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: #cb1216;
+}
+
+.box-num.s3 {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: #3c3d3e;
+}
+.txt-red {
+    color: #e50000;
+}
+.paihang-tab-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.paihang-tab-flex li {
+    width: 50%;
+    border-left: 1px solid #ffffff;
+}
+.paihang-tab-flex a {
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #eeeeee;
+    -webkit-transition: color 0.35s ease, background-color 0.35s ease;
+    -o-transition: color 0.35s ease, background-color 0.35s ease;
+    transition: color 0.35s ease, background-color 0.35s ease;
+}
+.paihang-tab-flex .active a {
+    color: #FFF;
+    background-color: #f19927;
+}
+.paihang-tab-flex:hover,.paihang-tab-flex:active a{
+    color: #FFF;
+    background-color: #f19927;
+}
+.paihang-tab-flex a {
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 16px!important;
+    color: #333;
+    background-color: #eeeeee;
+    -webkit-transition: color 0.35s ease, background-color 0.35s ease;
+    -o-transition: color 0.35s ease, background-color 0.35s ease;
+    transition: color 0.35s ease, background-color 0.35s ease;
+}
+.report .report-title {
+    width: calc(100% - 220px);
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 26px;
+}
+.report .download-report, .report .view-report {
+    display: inline-block;
+    width: 60px;
+    height: 25px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 8px;
+    border-radius: 2px;
+}.fi-xiazai{
+    display:block;
+   
+}
+.fi-xiazai:before {
+    display:block;
+    content: "\e62d";
+}
+.report .download-report {
+    background: #389dfe;
+}
+.ar-b {
+    text-align: center;
+}
+.page-b ul {
+    display: inline-block;
+}
+.page-b li {
+    float: left;
+    margin: 3px;
+}
+
+.page-b li a {
+    max-height: 32px;
+    min-width: 32px;
+    line-height: 30px;
+    border: 1px solid #e5e5e5;
+    color: #333;
+    display: block;
+    padding: 0 8px;
+    text-align: center;
+    text-decoration: none;
+}
+.page-b li.active a {
+    color: #fff;
+    background: #f19927;
+    border-color: #f19927;
+}
+.page-b li:hover a {
+    color: #fff;
+    background: #f19927;
+    border-color: #f19927;
+}
